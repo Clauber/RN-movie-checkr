@@ -1,16 +1,18 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {View, Text, ImageBackground} from 'react-native';
 
 let Another = props => {
   return (
-    <View>
-      <Text>notha Page!!!!!</Text>
-    </View>
+    <ImageBackground>
+      <View>
+        <Text>dasdasdasd dasdasdasPage!!!!!</Text>
+      </View>
+    </ImageBackground>
   );
 };
 
 Another.navigationOptions = {
-  title: 'da dasdasd',
+  title: 'da',
   headerStyle: {
     backgroundColor: '#f4511e',
   },

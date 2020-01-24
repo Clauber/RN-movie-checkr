@@ -16,6 +16,17 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* RNMovieCheckrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNMovieCheckrTests.m */; };
+		DD17B741AA8B44A7B1535216 /* MyriadPro-Bold.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 00DE69F6685A47E8BE469CEF /* MyriadPro-Bold.OTF */; };
+		0D002CFA5BE3442A9F31D344 /* MyriadPro-BoldCond.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 15BB62C2F2B54FC48F1F4F6C /* MyriadPro-BoldCond.OTF */; };
+		DF8BED8B32B14DB28E1C2AE1 /* MyriadPro-BoldCondIt.OTF in Resources */ = {isa = PBXBuildFile; fileRef = F3F733E0BAE248248D32FFD8 /* MyriadPro-BoldCondIt.OTF */; };
+		B296B1E9154343FBB2985EC1 /* MyriadPro-Cond.OTF in Resources */ = {isa = PBXBuildFile; fileRef = B220CF893F9C433996AE828A /* MyriadPro-Cond.OTF */; };
+		6E2EFB7C681947D7919F740B /* MyriadPro-CondIt.OTF in Resources */ = {isa = PBXBuildFile; fileRef = DA44A129922547B8A0B12D98 /* MyriadPro-CondIt.OTF */; };
+		0266D50E09F8401D96B8151F /* MyriadPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6F6D49CF4F3B48A7AAB9155C /* MyriadPro-Light.otf */; };
+		9B18257AD8714C8C983BEDB8 /* MyriadPro-LightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 369BDB59405D4DD0A5C33609 /* MyriadPro-LightIt.otf */; };
+		4D25BF62820144C4A6B99DEF /* MyriadPro-Regular.OTF in Resources */ = {isa = PBXBuildFile; fileRef = D8F1925C2D9B499CB2A6B811 /* MyriadPro-Regular.OTF */; };
+		279F8339D253466BB9E8B61C /* MyriadPro-Semibold.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 34FC732260F440408A9B792A /* MyriadPro-Semibold.OTF */; };
+		B6716712DA634A1A9891FD0A /* MyriadPro-SemiboldIt.OTF in Resources */ = {isa = PBXBuildFile; fileRef = F72AE924CB6049B9BFF337A9 /* MyriadPro-SemiboldIt.OTF */; };
+		A82196817E994E94A88008CC /* MytriadPro-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9BF610B054C443DF9E5857BD /* MytriadPro-Black.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,17 @@
 		2D02E4901E0B4A5D006451C7 /* RNMovieCheckr-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RNMovieCheckr-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		00DE69F6685A47E8BE469CEF /* MyriadPro-Bold.OTF */ = {isa = PBXFileReference; name = "MyriadPro-Bold.OTF"; path = "../assets/fonts/MyriadPro-Bold.OTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		15BB62C2F2B54FC48F1F4F6C /* MyriadPro-BoldCond.OTF */ = {isa = PBXFileReference; name = "MyriadPro-BoldCond.OTF"; path = "../assets/fonts/MyriadPro-BoldCond.OTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F3F733E0BAE248248D32FFD8 /* MyriadPro-BoldCondIt.OTF */ = {isa = PBXFileReference; name = "MyriadPro-BoldCondIt.OTF"; path = "../assets/fonts/MyriadPro-BoldCondIt.OTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B220CF893F9C433996AE828A /* MyriadPro-Cond.OTF */ = {isa = PBXFileReference; name = "MyriadPro-Cond.OTF"; path = "../assets/fonts/MyriadPro-Cond.OTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DA44A129922547B8A0B12D98 /* MyriadPro-CondIt.OTF */ = {isa = PBXFileReference; name = "MyriadPro-CondIt.OTF"; path = "../assets/fonts/MyriadPro-CondIt.OTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6F6D49CF4F3B48A7AAB9155C /* MyriadPro-Light.otf */ = {isa = PBXFileReference; name = "MyriadPro-Light.otf"; path = "../assets/fonts/MyriadPro-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		369BDB59405D4DD0A5C33609 /* MyriadPro-LightIt.otf */ = {isa = PBXFileReference; name = "MyriadPro-LightIt.otf"; path = "../assets/fonts/MyriadPro-LightIt.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D8F1925C2D9B499CB2A6B811 /* MyriadPro-Regular.OTF */ = {isa = PBXFileReference; name = "MyriadPro-Regular.OTF"; path = "../assets/fonts/MyriadPro-Regular.OTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		34FC732260F440408A9B792A /* MyriadPro-Semibold.OTF */ = {isa = PBXFileReference; name = "MyriadPro-Semibold.OTF"; path = "../assets/fonts/MyriadPro-Semibold.OTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F72AE924CB6049B9BFF337A9 /* MyriadPro-SemiboldIt.OTF */ = {isa = PBXFileReference; name = "MyriadPro-SemiboldIt.OTF"; path = "../assets/fonts/MyriadPro-SemiboldIt.OTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9BF610B054C443DF9E5857BD /* MytriadPro-Black.otf */ = {isa = PBXFileReference; name = "MytriadPro-Black.otf"; path = "../assets/fonts/MytriadPro-Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +162,7 @@
 				00E356EF1AD99517003FC87E /* RNMovieCheckrTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				DC25F92A7D224FE6A12DBB88 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -156,6 +179,25 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		DC25F92A7D224FE6A12DBB88 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				00DE69F6685A47E8BE469CEF /* MyriadPro-Bold.OTF */,
+				15BB62C2F2B54FC48F1F4F6C /* MyriadPro-BoldCond.OTF */,
+				F3F733E0BAE248248D32FFD8 /* MyriadPro-BoldCondIt.OTF */,
+				B220CF893F9C433996AE828A /* MyriadPro-Cond.OTF */,
+				DA44A129922547B8A0B12D98 /* MyriadPro-CondIt.OTF */,
+				6F6D49CF4F3B48A7AAB9155C /* MyriadPro-Light.otf */,
+				369BDB59405D4DD0A5C33609 /* MyriadPro-LightIt.otf */,
+				D8F1925C2D9B499CB2A6B811 /* MyriadPro-Regular.OTF */,
+				34FC732260F440408A9B792A /* MyriadPro-Semibold.OTF */,
+				F72AE924CB6049B9BFF337A9 /* MyriadPro-SemiboldIt.OTF */,
+				9BF610B054C443DF9E5857BD /* MytriadPro-Black.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -240,7 +282,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 940;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -293,6 +335,17 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				DD17B741AA8B44A7B1535216 /* MyriadPro-Bold.OTF in Resources */,
+				0D002CFA5BE3442A9F31D344 /* MyriadPro-BoldCond.OTF in Resources */,
+				DF8BED8B32B14DB28E1C2AE1 /* MyriadPro-BoldCondIt.OTF in Resources */,
+				B296B1E9154343FBB2985EC1 /* MyriadPro-Cond.OTF in Resources */,
+				6E2EFB7C681947D7919F740B /* MyriadPro-CondIt.OTF in Resources */,
+				0266D50E09F8401D96B8151F /* MyriadPro-Light.otf in Resources */,
+				9B18257AD8714C8C983BEDB8 /* MyriadPro-LightIt.otf in Resources */,
+				4D25BF62820144C4A6B99DEF /* MyriadPro-Regular.OTF in Resources */,
+				279F8339D253466BB9E8B61C /* MyriadPro-Semibold.OTF in Resources */,
+				B6716712DA634A1A9891FD0A /* MyriadPro-SemiboldIt.OTF in Resources */,
+				A82196817E994E94A88008CC /* MytriadPro-Black.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
