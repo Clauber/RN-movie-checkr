@@ -9,28 +9,39 @@ import {
   ImageBackground,
 } from 'react-native';
 
+var title = '';
 let Main = props => {
   const [movie, setMovie] = useState('');
 
   useEffect(() => {
     setMovie(props.navigation.getParam('movie', ''));
+    title = props.navigation.getParam('movie', '').title;
   }, []);
   return (
     <ImageBackground
       source={{uri: 'https://source.unsplash.com/1600x900/?movie'}}
       style={styles.bgImage}>
-      <View style={styles.container}>
-        <Image
-          style={styles.image}
-          source={{
-            uri: `https://image.tmdb.org/t/p/w780/${movie.backdrop_path}`,
-          }}
-        />
-        <Text style={styles.title}>{movie.title}</Text>
-        <Text>{movie.overview}</Text>
+      <View style={styles.wrapper}>
+        <View style={styles.container}>
+          <Image
+            style={styles.image}
+            source={{
+              uri: `https://image.tmdb.org/t/p/w780/${movie.backdrop_path}`,
+            }}
+          />
+          <Text style={styles.title}>{movie.title}</Text>
+          <Text>{movie.overview}</Text>
+        </View>
       </View>
     </ImageBackground>
   );
+};
+
+Main.navigationOptions = {
+  title: 'Movie Information',
+  headerTitleStyle: {
+    fontWeight: 'bold',
+  },
 };
 
 const win = Dimensions.get('window');
@@ -39,6 +50,7 @@ const styles = StyleSheet.create({
   wrapper: {
     width: '100%',
     height: '100%',
+    backgroundColor: 'rgba(255,255,255,0.7)',
   },
   bgImage: {
     width: '100%',
